@@ -1,0 +1,33 @@
+/************** CUSTOM PROPERTIES *************/
+
+:root {
+    --white: #fff;
+    --white-transparent: #fff2;
+    --white-transparent-2: #fff5;
+    --white-transparent-3: #fff8;
+    --blue: #3120e0;
+    --blue-dark: #3f75e0;
+    --black-light-2: #555;
+    --black-light-1: #333;
+    --black: #000;
+}
+
+/************** RESET **************/
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+}
